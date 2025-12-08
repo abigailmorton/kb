@@ -1,0 +1,20 @@
+# Sphinx build artifacts
+build/
+_build/
+venv/
+.vscode/
+
+# LaTeX junk
+*.aux
+*.log
+*.toc
+*.idx
+*.ilg
+*.ind
+*.out
+*.fdb_latexmk
+*.fls
+
+# Backup and OS files
+*~
+.DS_Store
