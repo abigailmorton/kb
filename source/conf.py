@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Abby Jane\'s Knowledge Base'
-copyright = '2025, Abby Jane'
-author = 'Abby Jane'
+project = 'Cloverdale Lane Knowledge Base'
+copyright = '2025, cloverdale Lane'
+author = 'Cloverdale Lane'
 release = '1'
 
 # -- General configuration ---------------------------------------------------
@@ -33,7 +33,7 @@ todo_include_todos = True
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'furo'
-html_title = 'Abby Jane\'s Knowledge Base'
+html_title = 'Cloverdale Lane Knowledge Base'
 html_static_path = ['_static']
 html_css_files = ["style.css"]
 html_favicon = "_static/favicon.png"
@@ -45,7 +45,7 @@ html_theme_options = {
     "sidebar_hide_name": False,
 
     # Little banner at the top of the page (nice for your tagline)
-    "announcement": "Tech, blog notes, errata, and what 3 AM Abby keeps forgetting.",
+    #"announcement": "Tech, blog notes, errata, and what 3 AM Abby keeps forgetting.",
 
     # Keyboard nav between pages
     "navigation_with_keys": True,
