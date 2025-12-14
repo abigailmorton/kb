@@ -8,12 +8,9 @@ This is my homegrown knowledge base. Because I forget things easily.
    :maxdepth: 4
    :caption: Sections:
 
-   tech
-   todo
+   technology
+   administration
 
 
-..
-   todo::
-   ..
-      Fix wrapping on right toolbar
-      Fix todos
+.. todo::
+   Fix footer border

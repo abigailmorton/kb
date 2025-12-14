@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Cloverdale Lane Knowledge Base'
-copyright = '2025, cloverdale Lane'
-author = 'Cloverdale Lane'
+project = 'Personal Knowledge Base'
+# copyright = '2025, cloverdale Lane'
+# author = 'Cloverdale Lane'
 release = '1'
 
 # -- General configuration ---------------------------------------------------
@@ -33,7 +33,7 @@ todo_include_todos = True
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'furo'
-html_title = 'Cloverdale Lane Knowledge Base'
+html_title = 'Personal Knowledge Base'
 html_static_path = ['_static']
 html_css_files = ["style.css"]
 html_favicon = "_static/favicon.png"

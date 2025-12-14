@@ -1,5 +1,5 @@
-Tech
-====
+Technology
+==========
 
 .. toctree::
     :maxdepth: 4
