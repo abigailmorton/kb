@@ -1,8 +1,8 @@
 # Sphinx build artifacts
-build/
-_build/
-venv/
-.vscode/
+build/*/*
+_build/*/*
+venv/*
+.vscode/*
 
 # LaTeX junk
 *.aux
