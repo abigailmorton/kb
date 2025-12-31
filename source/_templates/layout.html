@@ -1,0 +1,22 @@
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="stylesheet" href="https://unpkg.com/@pagefind/default-ui@latest/dist/pagefind-ui.css">
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+
+  <div id="aj-search-backdrop" class="aj-search-backdrop" hidden>
+    <div class="aj-search-modal" role="dialog" aria-modal="true" aria-label="Search">
+      <div class="aj-search-header">
+        <span class="aj-search-title">Search</span>
+        <span class="aj-search-hint">Ctrl K</span>
+      </div>
+      <div id="pagefind-ui"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/@pagefind/default-ui@latest/dist/pagefind-ui.js"></script>
+{% endblock %}

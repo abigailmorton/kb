@@ -1,0 +1,44 @@
+.aj-search-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: grid;
+  place-items: start center;
+  padding-top: 12vh;
+  z-index: 9999;
+}
+
+.aj-search-modal {
+  width: min(720px, calc(100vw - 32px));
+  border-radius: 16px;
+  background: var(--color-background-primary, #fff);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  padding: 14px 14px 10px 14px;
+}
+
+.aj-search-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 6px 10px 6px;
+}
+
+.aj-search-title {
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.aj-search-hint {
+  font-size: 12px;
+  opacity: 0.65;
+  border: 1px solid rgba(0,0,0,0.15);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+/* Pagefind UI tweaks */
+#pagefind-ui .pagefind-ui__search-input {
+  border-radius: 999px;
+  padding: 10px 14px;
+}

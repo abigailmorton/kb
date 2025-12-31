@@ -34,8 +34,10 @@ todo_include_todos = True
 
 html_theme = 'furo'
 html_title = 'Abby Jane\'s Knowledge Base'
+templates_path = ["_templates"]
 html_static_path = ['_static']
-html_css_files = ["style.css"]
+html_css_files = ["style.css", "search-modal.css",]
+html_js_files = ["search-modal.js"]
 html_favicon = "_static/favicon.png"
 html_show_sourcelink = False
 
