@@ -6,3 +6,4 @@ Technology
 
     nginx
     docker
+    caddy
